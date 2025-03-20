@@ -66,19 +66,29 @@ h3 {
 }
 
 /* FOOTER */
-footer {
+
+
+.row-up {
     background-image: url(/footer-bg.jpg);
-    min-height: 400px;
     position: relative;
+    min-height: 400px;
+}
+
+footer {
+    a {
+        color: grey;
+    }
 }
 
 
 .col {
     display: flex;
+    margin-left: 100px;
 
     img {
         position: absolute;
-        right: 70px;
+        right: 80px;
+        top: -10px;
     }
 
 
@@ -95,6 +105,44 @@ footer {
 
         h4 {
             color: white;
+            padding-bottom: 5px;
         }
     }
+}
+
+.row-down {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 54, 54);
+    min-height: 150px;
+    padding: 20px;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 10px;
+        margin-right: 20px;
+
+
+
+        h4 {
+            color: rgba(74, 200, 225, 0.662);
+            font-weight: bold;
+
+        }
+
+
+    }
+
+
+}
+
+.button {
+    background-color: rgb(46, 41, 41);
+    color: white;
+    border-color: rgba(92, 147, 234, 0.56);
+    padding: 10px;
+    margin: 20px 150px;
+
 }
