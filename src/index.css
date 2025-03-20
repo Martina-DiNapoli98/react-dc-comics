@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
 .container {
     display: flex;
     justify-content: space-between;
@@ -27,6 +28,8 @@ a {
 
 
 
+
+/* MAIN */
 .up {
     min-height: 150px;
     background-color: black;
@@ -60,4 +63,38 @@ a {
 h3 {
     color: white;
     font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    background-image: url(/footer-bg.jpg);
+    min-height: 400px;
+    position: relative;
+}
+
+
+.col {
+    display: flex;
+
+    img {
+        position: absolute;
+        right: 70px;
+    }
+
+
+    ul {
+        margin-top: 20px;
+        list-style: none;
+        color: white;
+        padding-left: 100px;
+
+    }
+
+    li {
+        color: grey;
+
+        h4 {
+            color: white;
+        }
+    }
 }
