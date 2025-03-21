@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     margin: 20px 150px;
-
+    align-items: center;
 
 
     ul {
@@ -18,7 +18,11 @@
         list-style: none;
         gap: 10px;
         text-transform: uppercase;
+        vertical-align: middle;
+
     }
+
+
 }
 
 a {
@@ -31,8 +35,9 @@ a {
 
 /* MAIN */
 .up {
-    min-height: 150px;
+    min-height: 300px;
     background-color: black;
+    background-size: cover;
 }
 
 .down {
@@ -47,6 +52,7 @@ a {
         padding: 70px;
         margin: 0 10px;
         text-align: center;
+
     }
 }
 
@@ -145,4 +151,20 @@ footer {
     padding: 10px;
     margin: 20px 150px;
 
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem
+}
+
+.col-2 {
+    width: calc((100% / 12) * 2);
+    padding: 1rem;
+
+}
+
+img {
+    max-width: 100%;
 }

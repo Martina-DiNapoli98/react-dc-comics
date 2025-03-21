@@ -1,8 +1,9 @@
+import Logo from './Logo'
 export default function Header() {
     return (
         <header>
             <div className="container">
-                <img src="./dc-logo.png" alt="" />
+                <Logo />
                 <ul>
                     <li>Characters</li>
                     <li>comics</li>

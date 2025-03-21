@@ -1,10 +1,10 @@
+import ComicsList from "./ComicsList";
+
 export default function Main() {
     return (
         <main>
             <section className="up">
-                <h3 className="content">
-                    Content goes here
-                </h3>
+                <ComicsList />
             </section>
             <section className="down">
                 <ul>
