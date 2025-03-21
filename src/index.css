@@ -105,6 +105,10 @@ h3 {
 footer {
     a {
         color: grey;
+
+        &:hover {
+            color: white;
+        }
     }
 }
 
