@@ -37,6 +37,11 @@ export default function ComicsList() {
 
                 </div>
             </div>
+            <div className='button-down'>
+                <button className='button-d' type='button'>
+                    LOAD MORE
+                </button>
+            </div>
 
         </section>
     )

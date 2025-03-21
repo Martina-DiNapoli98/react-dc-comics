@@ -4,20 +4,26 @@ export default function Header() {
         <header>
             <div className="container">
                 <Logo />
+
                 <ul>
-                    <li>Characters</li>
-                    <li>comics</li>
-                    <li>movies</li>
-                    <li>tv</li>
-                    <li>games</li>
-                    <li>collectibles</li>
-                    <li>videos</li>
-                    <li>fans</li>
-                    <li>news</li>
-                    <li>shop</li>
+                    <li><a href="">Characters</a></li>
+                    <li><a href="">comics</a></li>
+                    <li><a href="">movies</a></li>
+                    <li><a href="">tv</a></li>
+                    <li><a href="">games</a></li>
+                    <li><a href="">collectibles</a></li>
+                    <li><a href="">videos</a></li>
+                    <li><a href="">fans</a></li>
+                    <li><a href="">news</a></li>
+                    <li><a href="">shop</a></li>
                 </ul>
             </div>
 
+            <div className="jumbotron">
+
+            </div>
+
         </header>
+
     )
 }

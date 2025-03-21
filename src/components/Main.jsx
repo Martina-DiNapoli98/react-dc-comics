@@ -6,6 +6,7 @@ export default function Main() {
             <section className="up">
                 <ComicsList />
             </section>
+
             <section className="down">
                 <ul>
                     <li>
