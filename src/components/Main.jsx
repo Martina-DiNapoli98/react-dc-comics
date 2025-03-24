@@ -1,10 +1,10 @@
 import ComicsList from "./ComicsList";
 
-export default function Main() {
+export default function Main({ comics }) {
     return (
         <main>
             <section className="up">
-                <ComicsList />
+                <ComicsList comics={comics} />
             </section>
 
             <section className="down">

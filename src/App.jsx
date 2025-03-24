@@ -5,6 +5,9 @@ import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
 import menu from './data/menu'
+import comics from './data/comics'
+
+
 
 
 function App() {
@@ -12,8 +15,9 @@ function App() {
   return (
     <>
       <Header menu={menu} />
-      <Main />
+      <Main comics={comics} />
       <Footer />
+
     </>
   )
 }

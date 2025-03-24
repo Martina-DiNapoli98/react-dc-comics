@@ -1,7 +1,7 @@
 import Card from './Card'
-import comics from '../data/comics'
 
-export default function ComicsList() {
+
+export default function ComicsList({ comics }) {
     return (
         <section className="products">
             <div className="container">
@@ -10,7 +10,7 @@ export default function ComicsList() {
                 <div className="row">
 
                     {
-                        comics.map(item => (<Card thumb={item.thumb} title={item.title} />))
+                        comics.map(item => (<Card key={item.id} item={item} />))
                     }
                 </div>
             </div>
