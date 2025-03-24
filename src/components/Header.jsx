@@ -1,6 +1,7 @@
 import Logo from './Logo'
-export default function Header() {
-    const menu = ['Characters', 'comics', 'movies', 'tv', 'games', 'collectibles', 'videos', 'fans', 'news', 'shop']
+
+export default function Header({ menu }) {
+
     return (
         <header>
             <div className="container">
@@ -20,5 +21,7 @@ export default function Header() {
         </header>
 
     )
-}
+};
+
+
 
