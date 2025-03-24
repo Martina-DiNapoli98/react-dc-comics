@@ -6,6 +6,7 @@ import Main from './components/Main'
 import Footer from './components/Footer'
 import menu from './data/menu'
 import comics from './data/comics'
+import list from './data/list'
 
 
 
@@ -16,7 +17,7 @@ function App() {
     <>
       <Header menu={menu} />
       <Main comics={comics} />
-      <Footer />
+      <Footer list={list} />
 
     </>
   )
